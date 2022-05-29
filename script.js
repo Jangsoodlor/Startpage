@@ -1,6 +1,6 @@
 const time=document.getElementById("time");
 // This shows up next to the greeting
-const username="grtcdr";
+const username="Jangsoodlor";
 
 // Holds the greeting phrase, a different phrase
 // is picked depending on the time of day.
