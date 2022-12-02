@@ -1,20 +1,21 @@
 /* colour variables */
 :root{
-    --bgcolor: #282a36;
-    --timecolor: #bd93f9;
-    --greeting:  	#ff79c6;
+    --bgcolor: #24273a;
+    --timecolor: #c6a0f6;
+    --greeting:  	#a6da95;
 
     /* dropdown buttons */
-    --dropbtncolor: #44475a;
-    --dropbtn-text: #f8f8f2;
+    --dropbtncolor: #494d64;
+    --dropbtn-text: #cad3f5;
     --dropbtnborder: var(--dropbtncolor);
     --dropbtnborder-hover: var(--bgcolor);
 
     /* dropdown menus */
-    --dropdown-bg: #44475a;
-    --dropdown-text: #f8f8f2;
-    --dropdown-hover: #bd93f9;
-    --dropdown-text-hover: #f1fa8c;
+    --dropdown-bg: #414868;
+    --dropdown-text: #cad3f5;
+    --dropdown-hover: #939ab7;
+    --dropdown-text-hover: #f4dbd6;
+
 }
 
 

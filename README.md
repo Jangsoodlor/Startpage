@@ -25,4 +25,4 @@ Want to change color pallettes?
 ---
 
 ## Set Startpage As New Tab Page <a name="set-startpage"></a>
-Coming Soon....
+change browser.startup.homepage for firefox
