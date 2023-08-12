@@ -20,11 +20,9 @@ This is a startpage that I've been using for over 2 years now. Forked from and b
 
 ### Want to change color pallettes?
 - Go inside `style.css`. More instructions are provided there. I have the `themes.txt` for you to copy and paste the theme templates that I've used in the past, in case you really dislike Megumin. 
-
-<p align = center>
-<img src = "https://media.tenor.com/1qjlHimJe2UAAAAC/megumin-crying-megumin.gif">
-<code>Megumin is crying because you hate her.</code>
-</p>
+<div align=center>
+<img src = "https://media.tenor.com/1qjlHimJe2UAAAAC/megumin-crying-megumin.gif" align=center><br>
+<code>Megumin is crying because you hate her.</code></div>
 
 ## Cool. I want it as my New Tab Page
 
