@@ -1,0 +1,43 @@
+// These are my pre-configured themes
+// replace the :root class in style.css to implement
+
+
+// Darker Dracula theme
+:root{
+    --bgcolor: #181818;
+    --timecolor: #bd93f9;
+    --greeting:  	#ff79c6;
+
+    /* dropdown buttons */
+    --dropbtncolor: #181818;
+    --dropbtncolor-hover: #282a36;
+    --dropbtn-text: #f8f8f2;
+    --dropbtn-text-hover: #50fa7b;
+    --dropbtnborder: var(--dropbtncolor);
+    --dropbtnborder-hover: var(--bgcolor);
+
+    /* dropdown menus */
+    --dropdown-bg: #282a36;
+    --dropdown-text: #f8f8f2;
+    --dropdown-hover: #44475a;
+    --dropdown-text-hover: #f1fa8c;
+}
+
+// Dracula theme
+:root{
+    --bgcolor: #24273a;
+    --timecolor: #c6a0f6;
+    --greeting:  	#a6da95;
+
+    /* dropdown buttons */
+    --dropbtncolor: #494d64;
+    --dropbtn-text: #cad3f5;
+    --dropbtnborder: var(--dropbtncolor);
+    --dropbtnborder-hover: var(--bgcolor);
+
+    /* dropdown menus */
+    --dropdown-bg: #414868;
+    --dropdown-text: #cad3f5;
+    --dropdown-hover: #939ab7;
+    --dropdown-text-hover: #f4dbd6;
+}

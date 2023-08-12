@@ -11,18 +11,18 @@ const determineGreet = hours => document.getElementById("greeting").innerText = 
 window.addEventListener('load', () => {
     time.innerHTML = formatAMPM(new Date());
     determineGreet(new Date().getHours());
-    setTimeout(() => { document.getElementById("greeting").style.opacity = "1"; }, 150);
+    setTimeout(() => { document.getElementById("greeting").style.opacity = "1"; }, 50);
 });
 
 // Formats the given date into AM/PM format.
 function formatAMPM(date) {
     var hours = date.getHours();
     var minutes = date.getMinutes();
-    var ampm = hours >= 12 ? 'PM' : 'AM';
-    hours = hours % 12;
-    hours = hours ? hours : 12;
+    // var ampm = hours >= 12 ? 'PM' : 'AM';
+    // hours = hours % 12;
+    // hours = hours ? hours : 12;
     minutes = minutes < 10 ? '0'+ minutes : minutes;
-    var strTime = hours + ':' + minutes + ' ' + ampm;
+    var strTime = hours + ':' + minutes;
     return strTime;
 }
 
